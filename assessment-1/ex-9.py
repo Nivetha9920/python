@@ -7,7 +7,7 @@ def checkKey(dict, key):
 	else:
 		print("Not present")
 
-# Driver Code
+
 dict = {'a': 100, 'b':200, 'c':300}
 
 key = 'b'
