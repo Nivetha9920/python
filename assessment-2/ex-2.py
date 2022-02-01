@@ -5,7 +5,7 @@ s =input("Enter the url:")
 print("URL:",s)
 # finding the hostname which may
 # contain dash or dots
-obj2 = re.findall('://www.([\w\-\.]+)',s)
+obj2 = re.findall('://\w+.([\w\-\.]+)',s)
 print("Host:",obj2)
 # finding the protocol
 obj1 = re.findall('(\w+)://',s)
